@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <style>
+        .card-header { 
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+    <title>Layout Glances</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div class="row mt-4">
+            <div class="col-3 px-1">
+                <div class="card">
+                    <div class="card-header text-white bg-dark">INFO</div>
+                    <div class="card-body px-0">
+                        <table class="table table-sm table-borderless mb-0">
+                            <tbody>
+                                <tr>
+                                    <td colspan="3" class="text-center">Intel(R) Core(TM) i5-4250U CPU @ 1.30GHz - 1.90/1.30GHz</td>
+                                </tr>   
+                                <tr>
+                                    <td>CPU</td>
+                                    <td class="w-75 align-middle">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="12.6" aria-valuemin="0" aria-valuemax="100" style="width: 12.6%"></div>
+                                          </div>
+                                    </td>
+                                    <td>12.6%</td>
+                                </tr>
+                                <tr>
+                                    <td>MEM</td>
+                                    <td class="align-middle">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="25.7" aria-valuemin="0" aria-valuemax="100" style="width: 25.7%"></div>
+                                          </div>
+                                    </td>
+                                    <td>25.7%</td>
+                                </tr>
+                                <tr>
+                                    <td>SWAP</td>
+                                    <td class="align-middle">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
+                                          </div>
+                                    </td>
+                                    <td>0%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 px-1">
+                <div class="card">
+                    <div class="card-header text-white bg-dark">CPU</div>
+                    <div class="card-body px-0">
+                        <table class="table table-borderless table-sm mb-0">
+                            <tbody>
+                                <tr>
+                                    <td>CPU</td>
+                                    <td>12.6%</td>
+                                    <td>nice:</td>
+                                    <td>0.0%</td>
+                                    <td>ctx_sw:</td>
+                                    <td>674</td>
+                                </tr>    
+                                <tr>
+                                    <td>user</td>
+                                    <td>7.7%</td>
+                                    <td>irq:</td>
+                                    <td>0.0%</td>
+                                    <td>inter:</td>
+                                    <td>312</td>
+                                </tr>
+                                <tr>
+                                    <td>system:</td>
+                                    <td>4.8%</td>
+                                    <td>iowait:</td>
+                                    <td>0.0%</td>
+                                    <td>sw_int:</td>
+                                    <td>193</td>
+                                </tr>
+                                <tr>
+                                    <td>idle:</td>
+                                    <td>87.5%</td>
+                                    <td>steal:</td>
+                                    <td>0.0%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 px-1">
+                <div class="card">
+                    <div class="card-header text-white bg-dark">MEM</div>
+                    <div class="card-body px-0">
+                        <table class="table table-borderless table-sm mb-0">
+                            <tbody>
+                                <tr>
+                                    <td>MEM</td>
+                                    <td>25.7%</td>
+                                    <td>active:</td>
+                                    <td>373M</td>
+                                </tr>
+                                <tr>
+                                    <td>total:</td>
+                                    <td>1.95%</td>
+                                    <td>inactive:</td>
+                                    <td>1.32G</td>
+                                </tr>
+                                <tr>
+                                    <td>used:</td>
+                                    <td>514M</td>
+                                    <td>buffers:</td>
+                                    <td>31.6M</td>
+                                </tr>
+                                <tr>
+                                    <td>free:</td>
+                                    <td>1.45G</td>
+                                    <td>cached:</td>
+                                    <td>1.46G</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="col px-1">
+                <div class="card">
+                    <div class="card-header text-white bg-dark">SWAP</div>
+                    <div class="card-body px-0">
+                        <table class="table table-borderless table-sm mb-0">
+                            <tbody>
+                                <tr>
+                                    <td>SWAP</td>
+                                    <td>0.0%</td>
+                                </tr>
+                                <tr>
+                                    <td>total:</td>
+                                    <td>1024M</td>
+                                </tr>
+                                <tr>
+                                    <td>used:</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>free:</td>
+                                    <td>1024M</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="col px-1">
+                <div class="card">
+                    <div class="card-header text-white bg-dark">LOAD</div>
+                    <div class="card-body px-0">
+                        <table class="table table-borderless table-sm mb-0">
+                            <tbody>
+                                <tr>
+                                    <td>LOAD</td>
+                                    <td>2-core</td>
+                                </tr>
+                                <tr>
+                                    <td>1 min:</td>
+                                    <td>0.60</td>
+                                </tr>
+                                <tr>
+                                    <td>5 min:</td>
+                                    <td>0.81</td>
+                                </tr>
+                                <tr>
+                                    <td>15min:</td>
+                                    <td>0.70</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
